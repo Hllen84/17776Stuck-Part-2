@@ -1,3 +1,8 @@
+@font-face {
+    font-family: enchantment;
+    src: url(Fonts/minecraft-enchantment.ttf);
+}
+
 body{
     background-color: rgb(0, 255, 0);
 }
@@ -23,6 +28,12 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(255, 255, 255);
 }
+
+.rose{
+    background-color: red;
+    font-family: enchantment;
+}
+
 a{
     color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
