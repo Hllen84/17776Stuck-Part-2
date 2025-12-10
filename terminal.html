@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal</title>
+    <link rel="stylesheet" href="term.css">
+</head>
+<body>
+    <p>What do you want?</p>
+    <p>(Use lowercase letters for it to work)</p>
+    <input type="text" id="you" autocomplete="off">
+    <button id="are" onclick="handle()">Submit</button>
+    <p id="gay"></p>
+
+    <script>
+        var text = document.getElementById("you");
+        var button = document.getElementById("are");
+        var label = document.getElementById("gay");
+
+        function handle(){
+            var text2 = text.value;
+
+            if (text2 == "hi") {
+                label.innerHTML = "Hi there!";
+            } else if (text2 == "secret") {
+                label.innerHTML = "You want a secret? Okay.";
+                window.setTimeout(function(){
+                    label.innerHTML = "";
+                    window.open("secret/wc.mp3", '_blank').focus();
+                }, 1000);
+            } else if (text2 == "2023rewinder") {
+                label.innerHTML = "I can't help with that. Get your own nostalgia.";
+            } else if (text2 == "israel or palestine") {
+                label.innerHTML = "I'm a terminal. I don't have political beliefs.";
+            } else if (text2 == "are you dense") {
+                label.innerHTML = "No, I'm not dense."
+            } else {
+                label.innerHTML = "Error!";
+            }
+        }
+    </script>
+</body>
+</html>
