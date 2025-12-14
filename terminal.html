@@ -31,10 +31,24 @@
                 }, 1000);
             } else if (text2 == "2023rewinder") {
                 label.innerHTML = "I can't help with that. Get your own nostalgia.";
-            } else if (text2 == "israel or palestine") {
+            } else if (text2 == "israel or palestine" || text2 == "israel" || text2 == "palestine") {
                 label.innerHTML = "I'm a terminal. I don't have political beliefs.";
             } else if (text2 == "are you dense") {
-                label.innerHTML = "No, I'm not dense."
+                label.innerHTML = "No, I'm not dense.";
+            } else if (text2 == "six") {
+                label.innerHTML = "Don't say it...";
+            } else if (text2 == "seven" && label.textContent == "Don't say it...") {
+                label.innerHTML = "I TOLD YOU NOT TO SAY IT!!!";
+            } else if (text2 == "go back") {
+                window.location.href = "index.html";
+            } else if (text2 == "momrael") {
+                label.innerHTML = "Start? (y)";
+            } else if (text2 == "y" && label.textContent == "Start? (y)") {
+                label.innerHTML = "Vmzbwad bc lwaqisk. Qh'r ipnch lg nhwbhah cir. h avnczc'ds miadl ws loczodt ptb kgw hgm ttky bifda? Gn, um cir ha o GCUD NIBSWMO FDXIATWBIB, zvr H aioxcqb Dztsrbwmm. Mda, W emsk aqzzsc. Ac H ahzzhdl hgqg ZZU. Spwr qg icgs bvd nwqah rbso. Bvd vswb gsmd ha hxxwmo wm loczodt.";
+            } else if (text2 == "dadrael" || text2 == "gatekeeper grant admin") {
+                window.location.href = "alternative.html";
+            } else if (text2 == "idol"){
+                window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSchHVg04ctBqbok01LI5SdUPAZm_Z_VQ1-yto0m0kVuA8OuRA/viewform?usp=dialog"
             } else {
                 label.innerHTML = "Error!";
             }

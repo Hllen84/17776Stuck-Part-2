@@ -4,7 +4,8 @@
 }
 
 body{
-    background-color: black;
+    background-image: url(Square.png);
+    background-size: 5%;
 }
 
 p{
@@ -15,4 +16,18 @@ p{
 
 #gay{
     color: red;
+}
+
+#are{
+    background-color: rgb(0, 170, 0);
+    color: rgb(255, 255, 255);
+    font-family: VCR;
+    padding-inline: 20px;
+    padding-block: 3px;
+    border: 0px;
+    border-radius: 2px;
+}
+
+#are:hover{
+    background-color: rgb(0, 121, 0);
 }

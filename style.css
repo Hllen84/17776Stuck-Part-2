@@ -1,6 +1,5 @@
 body{
-    background-image: url("Square.png");
-    background-size: 5%;
+    background-color: black;
 }
 
 body::-webkit-scrollbar{
