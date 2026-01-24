@@ -7,10 +7,17 @@
     <link rel="stylesheet" href="term.css">
 </head>
 <body>
+    <audio autoplay>
+        <source src="i m soudn designer.mp3" type="audio/mpeg">
+    </audio>
+    <p class="TERMMMM">TERMINAL</p>
     <p>What do you want?</p>
     <p>(Use lowercase letters for it to work)</p>
-    <input type="text" id="you" autocomplete="off">
-    <button id="are" onclick="handle()">Submit</button>
+    <div class="trans">
+        <input type="text" id="you" autocomplete="off" autocapitalize="none">
+        <button id="are" onclick="handle()">Submit</button>
+    </div>
+    
     <p id="gay"></p>
 
     <script>
@@ -32,7 +39,7 @@
             } else if (text2 == "2023rewinder") {
                 label.innerHTML = "I can't help with that. Get your own nostalgia.";
             } else if (text2 == "israel or palestine" || text2 == "israel" || text2 == "palestine") {
-                label.innerHTML = "I'm a terminal. I don't have political beliefs.";
+                label.innerHTML = "I'm a terminal. I don't have political beliefs. Unless...";
             } else if (text2 == "are you dense") {
                 label.innerHTML = "No, I'm not dense.";
             } else if (text2 == "six") {
@@ -46,9 +53,26 @@
             } else if (text2 == "give me website" || text2 == "gatekeeper grant admin") {
                 window.location.href = "alternative.html";
             } else if (text2 == "idol") {
+                label.innerHTML = "";
                 window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSchHVg04ctBqbok01LI5SdUPAZm_Z_VQ1-yto0m0kVuA8OuRA/viewform?usp=dialog"
             } else if (text2 == "thereisnothingleft") {
+                label.innerHTML = "";
                 window.location.href = "eye.html";
+            } else if (text2 == "israelgpt" || text2 == "chatidf") {
+                window.location.href = "https://chatgpt.com";
+            } else if (text2 == "checkgoogle") {
+                label.innerHTML = "";
+                window.open("check17776stuck.gif", '_blank').focus();
+            } else if (text2 == "i goon to mimi") {
+                label.innerHTML = "THAT'S MY FUCKING GIRLFRIEND!!!!! >:(";
+            } else if (text2 == "spunch bop") {
+                label.innerHTML = "40 BENADRYLS 😂😂😂😂😂✌️";
+            } else if (text2 == "tsundere") {
+                label.innerHTML = ""
+                window.open("tsundere3.webp", '_blank').focus();
+            } else if (text2 == "gatekeeper on the mic") {
+                label.innerHTML = ""
+                window.open("gatekeeper on the mic.mp3", '_blank').focus();
             } else {
                 label.innerHTML = "Error!";
             }

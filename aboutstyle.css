@@ -34,6 +34,12 @@ p{
     font-family: enchantment;
 }
 
+.capi{
+    background-color: white;
+    color: #00a8a8;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 a{
     color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;

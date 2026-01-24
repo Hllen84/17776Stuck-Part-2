@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+p{
+    color: rgb(0, 255, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.head{
+    font-size: 50px;
+}
+
+.main{
+    background-color: rgba(255, 255, 255, 0.103);
+    width: 66.66666666vw;
+}
