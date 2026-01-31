@@ -1,5 +1,5 @@
 body{
-    background: #001400;
+    background: #000000;
     background: radial-gradient(circle, rgba(0, 20, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
     background-attachment: fixed;
     height: 100vh;
@@ -27,6 +27,11 @@ a{
     font-size: 25px;
 }
 
-div{
+.youre{
     text-align: center;
+}
+
+.arouy{
+    display: flex;
+    justify-content: center;
 }
