@@ -2,9 +2,20 @@ body{
     background-color: rgb(0, 17, 0);
 }
 
-div{
+.insanity{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.idiotsalign{
+    display: flex;
+    justify-content: center;
+}
+
+iframe{
+    width: 80vw;
+    height: auto;
+    aspect-ratio: 16 / 9;
 }

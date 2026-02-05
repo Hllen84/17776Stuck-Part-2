@@ -1,0 +1,24 @@
+@font-face {
+    font-family: jpn;
+    src: url(Fonts/Px437_DOS-V_re_ANK30.ttf);
+}
+
+body{
+    background-color: black;
+    font-family: jpn;
+}
+
+h1{
+    font-size: calc(100 / 1920 * 100vw);
+    color: white;
+}
+
+h2{ 
+    font-size: calc(50 / 1920 * 100vw);
+    color: rgb(39, 39, 39);
+}
+
+p{
+    font-size: calc(25 / 1920 * 100vw);
+    color: rgb(110, 110, 110);
+}
